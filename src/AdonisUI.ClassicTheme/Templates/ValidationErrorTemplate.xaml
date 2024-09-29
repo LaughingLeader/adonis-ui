@@ -1,19 +1,18 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:AdonisUI.ClassicTheme.Templates"
-                    xmlns:adonisUi="clr-namespace:AdonisUI;assembly=AdonisUI">
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:adonisUi="clr-namespace:AdonisUI;assembly=AdonisUI"
+    xmlns:local="clr-namespace:AdonisUI.ClassicTheme.Templates">
 
-    <ControlTemplate x:Key="{x:Static adonisUi:Templates.ValidationErrorTemplate}">
-        <DockPanel>
+	<ControlTemplate x:Key="{x:Static adonisUi:Templates.ValidationErrorTemplate}">
+		<DockPanel>
 
-            <Border BorderBrush="{DynamicResource {x:Static adonisUi:Brushes.ErrorBrush}}"
-                    BorderThickness="1">
-                
-                <AdornedElementPlaceholder x:Name="ErrorAdorner"/>
-                
-            </Border>
+			<Border BorderBrush="{DynamicResource {x:Static adonisUi:Brushes.ErrorBrush}}" BorderThickness="1">
 
-        </DockPanel>
-    </ControlTemplate>
+				<AdornedElementPlaceholder x:Name="ErrorAdorner" />
+
+			</Border>
+
+		</DockPanel>
+	</ControlTemplate>
 
 </ResourceDictionary>
